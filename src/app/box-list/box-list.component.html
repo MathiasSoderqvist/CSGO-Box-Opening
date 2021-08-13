@@ -1,0 +1,15 @@
+<div class="BoxList">
+  <div *ngFor="let box of boxes" [ngClass]="{'card' : box.node.iconUrl.includes('ancientgaming' || 'steam' || 'hypedrop'), 'no-card' : !box.node.iconUrl.includes('ancientgaming' || 'steam' || 'hypedrop')}">
+    <div *ngIf="box.node.iconUrl.includes('ancientgaming' || 'steam' || 'hypedrop')">
+        <div class="name">{{box.node.name}}</div>
+        <div class="image-container">
+        <img src={{box.node.iconUrl}} #reference class="img">
+        </div>
+        <div class=buttons>
+        <button mat-raised-button mat-ripple [matRippleColor]="'white'"
+        color="basic" (click)="openBox(box.node.id)">Open</button>
+        <button mat-raised-button color="primary"mat-ripple [matRippleColor]="'#3f51b5'" (click)="reference.src='../../assets/reward-1.png'">Mock Open</button>
+      </div>
+    </div>
+  </div>
+</div>

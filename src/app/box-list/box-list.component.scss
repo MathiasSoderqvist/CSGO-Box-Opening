@@ -1,0 +1,51 @@
+.BoxList {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: 1rem;
+
+}
+
+.img {
+ max-width: 10rem;
+}
+
+.card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(to right, #330877 0%, #330867 100%);
+  border-radius: 0.35rem;
+  min-width: 215px;
+  max-width: 215px;
+  margin-bottom: 2%;
+  margin-right: 0.5%;
+}
+
+.no-card {
+  display:none;
+}
+
+.name {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  min-height: 1rem;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}

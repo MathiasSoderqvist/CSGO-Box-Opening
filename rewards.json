@@ -1,0 +1,16 @@
+{
+  "rewards": [
+    {
+      "name": "reward1",
+      "url": "angular12app/src/assets/reward-1.png"
+    },
+    {
+      "name": "reward2",
+      "url": "angular12app/src/assets/reward-2.png"
+    },
+    {
+      "name": "reward3",
+      "url": "angular12app/src/assets/reward-3.png"
+    }
+  ]
+}

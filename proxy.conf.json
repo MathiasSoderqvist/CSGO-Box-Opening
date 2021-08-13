@@ -1,0 +1,7 @@
+{
+  "/api/*": {
+    "target": "https://api-staging.csgoroll.com/auth/steam?redirectUri=http://localhost:4200",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
